@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.srijan.Splash">
+
+
+    <VideoView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/bgVideoView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="511dp"
+        android:id="@+id/v_guideline1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="58dp"
+        app:layout_constraintGuide_percent="0.15104167"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="511dp"
+        android:id="@+id/v_guideline2"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="329dp"
+        app:layout_constraintGuide_percent="0.8567708"/>
+    <android.support.constraint.Guideline
+        android:layout_width="384dp"
+        android:layout_height="0dp"
+        android:id="@+id/v_guideline3"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="161dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_percent="0.31506848"/>
+    <android.support.constraint.Guideline
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_guideline4"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="370dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_percent="0.7240704"/>
+    <!--<ImageView
+            android:layout_width="0dp"
+            android:layout_height="315dp"
+            app:srcCompat="@drawable/srijanofficial"
+            android:id="@+id/orImageView"
+            app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+            app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+            app:layout_constraintBottom_toTopOf="@+id/v_guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toTopOf="@+id/v_guideline4"
+            app:layout_constraintVertical_bias="0.52" />-->
+
+
+</android.support.constraint.ConstraintLayout>

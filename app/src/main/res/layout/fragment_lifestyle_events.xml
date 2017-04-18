@@ -1,0 +1,138 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.sample.LifestyleEvents">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent_of_all_events"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/black_red_wallpaper">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:id="@+id/scrollview_of_allevent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars = "vertical"
+            android:scrollbarStyle="insideInset"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="2dp">
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:stretchColumns="0">
+
+                <TableRow
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/paridhaan"
+                        android:padding="2dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="#bb282424">
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Paridhan"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:textSize="35dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="The fashion show"
+                            android:textColor="#ffffff"
+                            android:textSize="22dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_alignParentStart="true"/>
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="'Fashion is the armor to survive the reality of everyday life.' —Bill Cunningham"
+                            android:textColor="#f4d405"
+                            android:textSize="15dp"
+                            android:textStyle="italic"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true" />
+
+                    </LinearLayout>
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/mr_and_ms_srijan"
+                        android:padding="2dp"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:background="#bb282424">
+                        <TextView
+                            android:layout_marginTop="4dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mr. and Ms. Srijan"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:textSize="35dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="#ffffff"
+                            android:textSize="22dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_alignParentStart="true"/>
+                        <TextView
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textColor="#f4d405"
+                            android:textSize="15dp"
+                            android:textStyle="italic"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true" />
+
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
