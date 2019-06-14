@@ -5,3 +5,5 @@ real-time basis.
 • Implemented offline notification system with API implementation to notify
 participants for the events they have registered for.
 • Released on Google Play Store as IIT(ISM) Dhanbad official app.
+
+You are most welcome to contribute in this project.
